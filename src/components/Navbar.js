@@ -15,12 +15,10 @@ function Navbar() {
 
   return (
     <nav className="flex justify-between items-center px-6 py-4 shadow-md fixed w-full z-50 bg-white dark:bg-gray-900 transition-colors duration-300">
-      {/* Logo */}
+     
       <div className="text-2xl font-bold text-[#640D5F] dark:text-white">
         Sri Krithi Alla
       </div>
-
-      {/* Navigation Buttons */}
       <div className="flex space-x-4">
         {['home', 'about', 'skills', 'experience', 'projects'].map((section) => (
           <Link
@@ -34,8 +32,6 @@ function Navbar() {
           </Link>
         ))}
       </div>
-
-      {/* Theme Toggle */}
       <button
           onClick={toggleTheme}
           className="p-2 rounded-full bg-gray-200 dark:bg-white  transition"

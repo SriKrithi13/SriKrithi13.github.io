@@ -35,7 +35,6 @@ const Experience = () => {
       <div className="max-w-4xl mx-auto space-y-8">
         {experiences.map((exp, idx) => (
           <div key={idx} className="bg-gray-100 rounded-xl p-6 shadow-md text-left">
-          {/* Header row with text and image */}
           <div className="flex justify-between items-start">
             <div>
               <h3 className="text-xl font-semibold text-[#640D5F]">{exp.title}</h3>
@@ -49,8 +48,6 @@ const Experience = () => {
               className="w-14 h-14 object-cover rounded-md ml-4"
             />
           </div>
-        
-          {/* Description */}
           {Array.isArray(exp.description) ? (
             <ul className="list-disc list-inside mt-4 text-gray-700 space-y-1">
               {exp.description.map((point, i) => (
