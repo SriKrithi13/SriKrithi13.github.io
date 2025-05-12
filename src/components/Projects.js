@@ -27,31 +27,8 @@ const projects = [
     description: "A support portal with ticket management, integrated AI chatbot, and AWS S3 for file storage.",
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
 
-  },
-  {
-    title: "AI Chat Support Portal",
-    github: "https://github.com/yourusername/ai-chat-support",
-    image: projectImg1,
-    description: "A support portal with ticket management, integrated AI chatbot, and AWS S3 for file storage.",
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
-
-  },
-  {
-    title: "AI Chat Support Portal",
-    github: "https://github.com/yourusername/ai-chat-support",
-    image: projectImg1,
-    description: "A support portal with ticket management, integrated AI chatbot, and AWS S3 for file storage.",
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
-
-  },
-  {
-    title: "AI Chat Support Portal",
-    github: "https://github.com/yourusername/ai-chat-support",
-    image: projectImg1,
-    description: "A support portal with ticket management, integrated AI chatbot, and AWS S3 for file storage.",
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
-
-  },
+  }
+  
 ];
 
 
