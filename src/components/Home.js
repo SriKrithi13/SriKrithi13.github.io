@@ -2,6 +2,8 @@ import React from 'react';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 import myPhoto from '../assets/mainphoto.png';
+import { TypeAnimation } from 'react-type-animation';
+
 
 const Home = () => {
   return (
@@ -17,20 +19,31 @@ const Home = () => {
   />
   </div>
       <div className="md:ml-20 mt-10 md:mt-0 text-center md:text-left text-white dark:text-white flex flex-col items-center md:items-start gap-4">
-  <h1 className="text-4xl font-bold dark:text-white text-[#640D5F]">Hey there!, I'm Krithi</h1> 
-  <h2 className="text-2xl dark:text-white text-[#640D5F]">Software Developer</h2>
+  <h1 className="text-5xl font-bold dark:text-white text-[#640D5F]">Hey there!, I'm Krithi</h1> 
+  <TypeAnimation
+  sequence={[
+    "Software Developer",
+    2000,
+    '',
+    1000,
+  ]}
+  wrapper="h2"
+  cursor={true}
+  repeat={Infinity}
+  className="text-2xl dark:text-white text-[#640D5F]"
+/>
 
-  <div className="flex justify-center md:justify-start space-x-6 text-3xl text-[#640D5F] dark:text-white">
-    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-    <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-    <a href="mailto:youremail@gmail.com"><FaEnvelope /></a>
+  <div className="flex justify-center md:justify-start space-x-6 text-3xl text-[#640D5F]  dark:text-white">
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className='hover:scale-110'><FaLinkedin /></a>
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className='hover:scale-110'><FaGithub /></a>
+    <a href="mailto:youremail@gmail.com" className='hover:scale-110'><FaEnvelope /></a>
   </div>
 
   <a
     href="/resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
-    className="inline-block mt-4 px-6 py-3 bg-[#640D5F] text-white dark:text-white font-semibold rounded-lg hover:bg-gray-100 transition"
+    className="inline-block mt-4 px-6 py-3 bg-[#640D5F] text-white dark:text-white font-semibold rounded-lg hover:scale-110 transition"
   >
     View My Resume
   </a>

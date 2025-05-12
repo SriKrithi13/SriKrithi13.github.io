@@ -46,7 +46,7 @@ const Skills = () => {
             <div className="text-6xl p-4 bg-white rounded-full shadow-lg transition transform hover:scale-110 hover:shadow-xl">
               {skill.icon}
             </div>
-            <span className="text-sm mt-2 text-gray-700 dark:text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span className="text-sm mt-2 text-gray-700 dark:text-white  ">
               {skill.name}
             </span>
           </div>

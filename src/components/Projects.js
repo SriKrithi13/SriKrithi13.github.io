@@ -28,6 +28,30 @@ const projects = [
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
 
   },
+  {
+    title: "AI Chat Support Portal",
+    github: "https://github.com/yourusername/ai-chat-support",
+    image: projectImg1,
+    description: "A support portal with ticket management, integrated AI chatbot, and AWS S3 for file storage.",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
+
+  },
+  {
+    title: "AI Chat Support Portal",
+    github: "https://github.com/yourusername/ai-chat-support",
+    image: projectImg1,
+    description: "A support portal with ticket management, integrated AI chatbot, and AWS S3 for file storage.",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
+
+  },
+  {
+    title: "AI Chat Support Portal",
+    github: "https://github.com/yourusername/ai-chat-support",
+    image: projectImg1,
+    description: "A support portal with ticket management, integrated AI chatbot, and AWS S3 for file storage.",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
+
+  },
 ];
 
 
@@ -38,7 +62,6 @@ const Projects = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {projects.map((project, idx) => (
           <div key={idx} className="bg-white rounded-xl p-6 shadow-md text-left">
-            {/* Title with GitHub Icon */}
             <div className="flex justify-between space-x-2 mb-4">
               
               <h3 className="text-xl font-semibold text-[#640D5F]">{project.title}</h3>
@@ -58,11 +81,7 @@ const Projects = () => {
               alt={project.title}
               className="w-68 h-50 object-cover rounded-lg mb-4"
             />
-
-            {/* Description */}
             <p className="text-gray-700 mb-4">{project.description}</p>
-
-            {/* Tech Stack */}
             <div className="flex flex-wrap gap-2">
               {project.techStack.map((tech, i) => (
                 <span
