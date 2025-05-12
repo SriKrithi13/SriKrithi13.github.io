@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8be8cbaf.css",
+    "main.js": "/static/js/main.fac17751.js",
+    "static/media/mainphoto.png": "/static/media/mainphoto.6babc3547354187a2386.png",
+    "static/media/projectimg.jpg": "/static/media/projectimg.268b7f6c6d530c51eb35.jpg",
+    "static/media/python-logo-only.png": "/static/media/python-logo-only.632369df831d16241b59.png",
+    "index.html": "/index.html",
+    "main.8be8cbaf.css.map": "/static/css/main.8be8cbaf.css.map",
+    "main.fac17751.js.map": "/static/js/main.fac17751.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8be8cbaf.css",
+    "static/js/main.fac17751.js"
+  ]
+}
