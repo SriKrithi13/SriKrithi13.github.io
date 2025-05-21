@@ -2,6 +2,7 @@ import React from 'react';
 import slope from "../assets/slope.jpeg"; 
 import uc from "../assets/uc.jpeg"; 
 import ctp from "../assets/ctp.jpeg"; 
+import { motion } from 'framer-motion';
 
 
 const experiences = [
@@ -30,7 +31,10 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-16 bg-white px-4 text-center text-[#640D5F] dark:bg-gray-900 dark:text-white">
+    <motion.section id="experience" className="py-16 bg-white px-4 text-center text-[#640D5F] dark:bg-gray-900 dark:text-white" initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8, ease: 'easeOut' }}
+    viewport={{ once: true }}>
       <h2 className="text-4xl font-bold text-[#640D5F] dark:text-white mt-5 mb-8">Experience</h2>
       <div className="max-w-4xl mx-auto space-y-8">
         {experiences.map((exp, idx) => (
@@ -61,7 +65,7 @@ const Experience = () => {
         
         ))}
       </div>
-    </section>
+      </motion.section>
   );
 };
 

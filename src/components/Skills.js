@@ -3,6 +3,7 @@ import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaJava, FaGitAlt, FaDocker, FaAn
 import { SiCplusplus, SiJavascript, SiExpress, SiMongodb, SiSpring, SiPostgresql, SiTailwindcss, SiAmazon  } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 import PythonLogo from './python-logo-only.png'; 
+import { motion } from 'framer-motion';
 
 const skills = [
   { name: 'HTML', icon: <FaHtml5 className="text-orange-600" /> },
@@ -38,7 +39,10 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-16 bg-purple-100 dark:bg-gray-900 dark:text-white text-center px-4">
+    <motion.section id="skills" className="py-16 bg-purple-100 dark:bg-gray-900 dark:text-white text-center px-4" initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8, ease: 'easeOut' }}
+    viewport={{ once: true }}>
       <h2 className="text-4xl font-bold text-[#640D5F] dark:text-white mb-8 mt-5 ">Skills</h2>
       <div className="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
         {skills.map((skill, index) => (
@@ -52,7 +56,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
-    </section>
+      </motion.section>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import projectImg1 from "../assets/projectimg.jpg"; 
 import { FaGithub } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const projects = [
   {
@@ -34,8 +35,11 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 bg-purple-100 shadow-inner dark:shadow-[inset_0_-2px_6px_rgba(255,255,255,0.1)]  dark:bg-gray-900 dark:text-white px-4 text-center">
-      <h2 className="text-4xl font-bold text-[#640D5F] mt-5 mb-8">Projects</h2>
+    <motion.section id="projects" className="py-16 bg-purple-100 shadow-inner dark:shadow-[inset_0_-2px_6px_rgba(255,255,255,0.1)]  dark:bg-gray-900 dark:text-white px-4 text-center" initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8, ease: 'easeOut' }}
+    viewport={{ once: true }}>
+      <h2 className="text-4xl font-bold text-[#640D5F] dark:text-white mt-5 mb-8">Projects</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {projects.map((project, idx) => (
           <div key={idx} className="bg-white rounded-xl p-6 shadow-md text-left">
@@ -72,7 +76,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </section>
+      </motion.section>
   );
 };
 
