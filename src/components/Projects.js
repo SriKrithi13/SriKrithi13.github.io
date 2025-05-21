@@ -5,15 +5,15 @@ import { FaGithub } from 'react-icons/fa';
 const projects = [
   {
     title: "Smart Barter",
-    github: "https://github.com/yourusername/smart-barter",
+    github: "https://github.com/SriKrithi13",
     image: projectImg1,
     description: "A peer-to-peer item exchange platform with real-time chat and user authentication. Deployed on Render.",
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
+    techStack: ["React.js", "Node.js", "MongoDB"]
 
   },
   {
     title: "E-Commerce Dashboard",
-    github: "https://github.com/yourusername/ecommerce-dashboard",
+    github: "https://github.com/SriKrithi13",
     image: projectImg1,
     description: "A data-driven admin dashboard with dynamic sales analytics and AWS Lambda integration.",
     techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
@@ -22,10 +22,10 @@ const projects = [
   },
   {
     title: "AI Chat Support Portal",
-    github: "https://github.com/yourusername/ai-chat-support",
+    github: "https://github.com/SriKrithi13",
     image: projectImg1,
     description: "A support portal with ticket management, integrated AI chatbot, and AWS S3 for file storage.",
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"]
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "AWS S3", "OpenAI AP"]
 
   }
   
