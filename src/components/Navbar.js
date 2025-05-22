@@ -1,7 +1,17 @@
 import { Link } from 'react-scroll';
+import { useState, useEffect } from 'react';
+import { FaMoon, FaSun } from 'react-icons/fa';
 
 function Navbar() {
-  
+  const [theme, setTheme] = useState('light');
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+  };
 
   return (
     <nav className="flex justify-between items-center px-6 py-4 shadow-md fixed w-full z-50 bg-white dark:bg-gray-900 transition-colors duration-300">
@@ -22,7 +32,14 @@ function Navbar() {
           </Link>
         ))}
       </div>
-      
+
+      <button
+          onClick={toggleTheme}
+          className="p-2 rounded-full bg-gray-200 dark:bg-white  transition"
+          aria-label="Toggle Theme"
+        >
+          {theme === 'light' ? <FaSun className="text-yellow-700" /> : <FaMoon className="text-gray-800" />}
+        </button>
     </nav>
   );
 }

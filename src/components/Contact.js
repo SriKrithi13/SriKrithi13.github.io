@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaArrowUp } from 'react-icons/fa';
 const Contact = () => {
   return (
     
-    <footer className="bg-purple-100  dark:bg-gray-900 text-[#640D5F] py-6 px-4 shadow-inner dark:shadow-[inset_0_-2px_6px_rgba(255,255,255,0.1)]">
+    <footer className="bg-purple-100 dark:bg-gray-900 text-[#640D5F] dark:text-white py-6 px-4 shadow-inner dark:shadow-[inset_0_-2px_6px_rgba(255,255,255,0.1)]">
       <div className="max-w-6xl mx-auto flex  dark:text-white flex-col md:flex-row items-center justify-between">
         <p className="text-sm mb-4 md:mb-0">
           © {new Date().getFullYear()} Sri Krithi Alla. All rights reserved.
