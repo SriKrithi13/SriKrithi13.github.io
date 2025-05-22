@@ -26,7 +26,7 @@ function Navbar() {
             to={section}
             smooth={true}
             duration={500}
-            className="cursor-pointer bg-[#f3e8f6] dark:bg-[#2e2e2e] text-[#640D5F] dark:text-white px-4 py-2 rounded-md shadow hover:bg-[#e2d2e8] dark:hover:bg-[#3c3c3c] transition-colors duration-300 text-sm font-medium"
+            className="cursor-pointer bg-[#f3e8f6] dark:bg-gray-700 text-[#640D5F] dark:text-white px-4 py-2 rounded-md shadow hover:bg-[#e2d2e8] dark:hover:bg-[#3c3c3c] transition-colors duration-300 text-sm font-medium"
           >
             {section.charAt(0).toUpperCase() + section.slice(1).replace('-', ' ')}
           </Link>

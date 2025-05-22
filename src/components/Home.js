@@ -43,7 +43,7 @@ const Home = () => {
     href="/SRIKRITHIALLA_Resume_A4.pdf"
     target="_blank"
     rel="noopener noreferrer"
-    className="inline-block mt-4 px-6 py-3 bg-[#640D5F] text-white dark:text-white font-semibold rounded-lg hover:scale-110 transition"
+    className="inline-block mt-4 px-6 py-3 bg-[#640D5F] dark:bg-gray-700 text-white dark:text-white font-semibold rounded-lg hover:scale-110 transition"
   >
     View My Resume
   </a>
