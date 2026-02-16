@@ -10,11 +10,11 @@ const Contact = () => {
           © {new Date().getFullYear()} Sri Krithi Alla. All rights reserved.
         </p>
         <div className="flex items-center space-x-6 text-base">
-          <a href="mailto:srikrithialla@gmail.com" className="flex items-center space-x-2 hover:text-purple-400">
+          <a href="mailto:krithisrialla@gmail.com" className="flex items-center space-x-2 hover:text-purple-400">
             <FaEnvelope />
             <span>Email</span>
           </a>
-          <a href="https://www.linkedin.com/in/sri-krithi-alla/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-purple-400">
+          <a href="https://www.linkedin.com/in/krithi-alla/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-purple-400">
             <FaLinkedin />
             <span>LinkedIn</span>
           </a>

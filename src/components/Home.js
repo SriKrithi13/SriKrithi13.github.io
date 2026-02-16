@@ -34,13 +34,13 @@ const Home = () => {
 />
 
   <div className="flex justify-center md:justify-start space-x-6 text-3xl text-[#640D5F]  dark:text-white">
-    <a href="https://www.linkedin.com/in/sri-krithi-alla/" target="_blank" rel="noopener noreferrer" className='hover:scale-110'><FaLinkedin /></a>
+    <a href="https://www.linkedin.com/in/krithi-alla" target="_blank" rel="noopener noreferrer" className='hover:scale-110'><FaLinkedin /></a>
     <a href="https://github.com/SriKrithi13" target="_blank" rel="noopener noreferrer" className='hover:scale-110'><FaGithub /></a>
-    <a href="mailto:srikrithialla@gmail.com" className='hover:scale-110'><FaEnvelope /></a>
+    <a href="mailto:krithisrialla@gmail.com" className='hover:scale-110'><FaEnvelope /></a>
   </div>
 
   <a
-    href="/SRIKRITHIALLA_Resume_A4.pdf"
+    href="/Krithi_SE_Resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block mt-4 px-6 py-3 bg-[#640D5F] dark:bg-gray-700 text-white dark:text-white font-semibold rounded-lg hover:scale-110 transition"
