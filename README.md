@@ -6,5 +6,5 @@ npm start
 step 2: open vscode for the portfolio and make all the changes required.
 step 3: 
 git add .
-git commit -m "Update resume and LinkedIn link"
+git commit -m "Updation"
 git push
