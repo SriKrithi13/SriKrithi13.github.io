@@ -32,7 +32,10 @@ const About = () => {
 
       <h2 className="text-4xl font-bold text-[#640D5F] dark:text-white mb-4">About Me</h2>
       <p className="max-w-3xl mx-auto text-lg text-gray-600 dark:text-white">
-        I'm <span className="font-semibold text-purple-700 dark:text-white">Sri Krithi Alla</span>, a passionate and goal-driven software developer. I love building full-stack web applications, solving real-world problems, and continuously learning new technologies to level up my skills.
+        I'm <span className="font-semibold text-purple-700 dark:text-white">Sri Krithi Alla</span>, a passionate and goal-driven software developer with 4+ years of experience building scalable enterprise solutions for healthcare and fintech
+domains. Expert in Java Spring Boot, React, and Cloud Architectures (AWS/Azure), delivering high-availability microservices
+and optimizing data pipelines. Committed to building secure, compliant, and user-centric applications that drive digital
+transformation.
       </p>
 
       <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto mt-10">
